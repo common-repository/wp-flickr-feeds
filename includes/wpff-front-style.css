@@ -1,0 +1,136 @@
+/*=======================front style start======================*/
+
+/*=======================LIST MODE CSS START======================*/
+.flickr-feed-list-view li {
+    /*border-bottom: 1px dotted #ccc;*/
+    box-shadow: 0 0 2px rgba(0, 0, 0, 0.1);
+    display: inline-block;
+    margin: 0 0 14px !important;
+    padding: 14px 0;
+    width: 100%;
+    box-shadow: 0 1px 2px 0 #d9d9d9;
+}
+
+.flickr-feed-list-view li .img_box {
+    float: left;
+    /*height: 210px;*/
+    height:auto;
+    width: 30%;
+}
+
+.flickr-feed-list-view li .img_box img {
+    height:134px;
+    width: 100%;
+}
+
+.flickr-feed-list-view li .flickr_single_box {
+    padding: 0 15px;
+}
+
+.flickr_single_box .img_box a img{
+	box-shadow:none;
+}
+
+
+
+.flickr-feed-list-view li .flickr_single_box .content {
+    float: left;
+    margin-left: 15px;
+    width: 65%;
+}
+
+.flickr-feed-list-view li .flickr_single_box .contant_box1 {
+    font-size: 13px;
+}
+
+/*=======================LIST MODE CSS END======================*/
+
+/*=======================GRID CSS START======================*/
+.col-main > ul#grid_flickr_feed {
+    margin:25px auto 0;
+    max-width: 1167px;
+    min-height: 960px;
+	position:relative;
+    
+    overflow-y: auto;
+}
+.col-main > ul#fbfeed {
+    clear: both;
+    float: left;
+    width: 100%;
+}
+#grid_flickr_feed .flickr_single_box {
+    /*border: 1px solid #ccc;*/
+    display: inline-block;
+    padding: 15px;
+	width:100%;
+}
+
+#grid_flickr_feed li {
+    border: 1px solid #ccc;
+    box-shadow: 0 1px 2px 0 #d9d9d9;
+    display: inline-block;
+    margin: 0 20px 25px 0;
+    max-width: 250px;
+    vertical-align: top;
+    width: 252px;
+}
+#grid_flickr_feed li:nth-child(4){margin-right:0;}
+.flickr_single_box {
+    /*border: 1px solid #ccc;*/
+}
+#grid_flickr_feed li .img_box img {
+    width: 100%;
+	height:159px;
+}
+
+#grid_flickr_feed .content .contant_box1 {
+    font-size: 13px;
+}
+#grid_flickr_feed .flickr_single_box .img_box a {
+    display: inline-block;
+    margin-bottom: 5px;
+	width:100%;
+}
+
+.flickr-feed-grid-view {
+    position: relative;
+}
+
+.flickr-feed-grid-view {
+    display: block;
+    height: 800px;
+    min-height: 100%;
+    overflow: scroll;
+    position: relative;
+	padding:0px;
+}
+
+
+.flickr-feed-grid-view .img_box {
+    width: 100%;
+}
+
+.flickr-feed-grid-view .content {
+    min-height: 40px;
+}
+
+.main-flickr-feeds-div {
+    max-width: 570px;
+}
+
+
+.flickr-feed-list-view {
+    padding: 0;
+}
+
+.main-flickr-feeds-div h1 {
+    border-bottom: 1px solid #d1d1d1;
+    color: #000;
+    font-size: 20px;
+    padding-bottom: 11px;
+}
+
+
+/*=======================GRID CSS END======================*/
+/*=======================front style end======================*/
